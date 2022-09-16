@@ -64,7 +64,7 @@ The content and type of the `additional_info` row depends on the status of the g
 
 If a query was blocked due to a CNAME inspection (status 9, 10, 11), this field contains the domain which was the reason for blocking the entire CNAME chain (text).
 
-##### Query blocked due to a black- or whitelist entry {#additional_info_list data-toc-label='Regular expression'}
+##### Query influenced by a black- or whitelist entry {#additional_info_list data-toc-label='domainlist_id'}
 
 If a query was blocked due to a black- or whitelist entry, this field contains the ID of the corresponding entry in the [`domainlist`](gravity/index.md#domain-tables-domainlist) table.
 
