@@ -66,7 +66,7 @@ If a query was blocked due to a CNAME inspection (status 9, 10, 11), this field 
 
 ##### Query influenced by a black- or whitelist entry {#additional_info_list data-toc-label='domainlist_id'}
 
-If a query was blocked due to a black- or whitelist entry, this field contains the ID of the corresponding entry in the [`domainlist`](gravity/index.md#domain-tables-domainlist) table.
+If a query was influenced by a black- or whitelist entry, this field contains the ID of the corresponding entry in the [`domainlist`](gravity/index.md#domain-tables-domainlist) table.
 
 ### Counters table
 
